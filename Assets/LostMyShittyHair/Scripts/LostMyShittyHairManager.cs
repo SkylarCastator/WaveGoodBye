@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -10,6 +11,7 @@ public class LostMyShittyHairManager : MonoBehaviour {
     public GameObject gameSpawnerObject;
     public GameObject readyButton;
     public GameObject gameOverMenu;
+    public GameObject LoadingScreen;
     public TrumpHairController hairController;
     public Rigidbody2D hairRigidBody;
     public Text GameOverScore;
@@ -20,6 +22,7 @@ public class LostMyShittyHairManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        LoadingScreen.SetActive(false);
         hairRigidBody.isKinematic = true;
         hairController.enabled = false;
         StartingLabel.gameObject.SetActive(false);
@@ -79,8 +82,41 @@ public class LostMyShittyHairManager : MonoBehaviour {
 
     }
 
+    public void ReturnToMainMenu()
+    {
+        LoadingScreen.SetActive(true);
+        StartCoroutine(WaitForLoadingScreen());
+    }
+
     public void ResetGame()
     {
+        LoadingScreen.SetActive(true);
         SceneManager.LoadScene("TrumpRunning");
+    }
+
+    private IEnumerator WaitForLoadingScreen()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadSceneAsync("MainMenu");
+    }
+
+    private void AddScoreToHighScoreBoard()
+    {
+        List<int> highScores = new List<int>();
+
+
+        for (int i = 0; i < highScores.Count; i++)
+        {
+            string highScoreKey = "HighScore" + (i + 1).ToString();
+            int highScore = PlayerPrefs.GetInt(highScoreKey, 0);
+
+            if (score > highScore)
+            {
+                int temp = highScore;
+                PlayerPrefs.SetInt(highScoreKey, score);
+                score = temp;
+                break;
+            }
+        }
     }
 }

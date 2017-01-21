@@ -11,10 +11,19 @@ public class LostMyShittyHairManager : MonoBehaviour {
     public GameObject gameSpawnerObject;
     public GameObject readyButton;
     public GameObject gameOverMenu;
+    public GameObject newHighScoreMenu;
+    public GameObject LeaderBoardMenu;
+    public GameObject HighScoreContent;
+    public GameObject HighScoreObjectExample;
+    List<int> highScores = new List<int>();
+    List<string> highScoreNames = new List<string>();
     public GameObject LoadingScreen;
     public TrumpHairController hairController;
     public Rigidbody2D hairRigidBody;
     public Text GameOverScore;
+    public Text newHighScoreMenuScore;
+    public InputField newHighScoreMenuName;
+    string playerName;
     int score = 0;
     float countdownTimer = 4f;
     bool gameStarted = false;
@@ -23,6 +32,9 @@ public class LostMyShittyHairManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         LoadingScreen.SetActive(false);
+        gameOverMenu.SetActive(false);
+        newHighScoreMenu.SetActive(false);
+        LeaderBoardMenu.SetActive(false);
         hairRigidBody.isKinematic = true;
         hairController.enabled = false;
         StartingLabel.gameObject.SetActive(false);
@@ -39,9 +51,17 @@ public class LostMyShittyHairManager : MonoBehaviour {
                 countdownTimer -= Time.deltaTime;
 
                 int timerShort = (int)countdownTimer;
-                StartingLabel.text = timerShort.ToString();
+                
+                if (countdownTimer <= 1)
+                {
+                    StartingLabel.text = "GO!";
+                }
+                else
+                {
+                    StartingLabel.text = timerShort.ToString();
+                }
 
-                if (countdownTimer <= 0)
+                    if (countdownTimer <= 0)
                 {
                     gameStarted = true;
                     StartGame();
@@ -74,12 +94,63 @@ public class LostMyShittyHairManager : MonoBehaviour {
 
     public void GameOver()
     {
-        gameOverMenu.SetActive(true);
-        GameOverScore.text = score.ToString();
+        int tempScore = PlayerPrefs.GetInt("HighScore10", 0);
+        if (score <= tempScore)
+        {
+            gameOverMenu.SetActive(true);
+            GameOverScore.text = score.ToString();
+        }
+        else
+        {
+            newHighScoreMenu.SetActive(true);
+            newHighScoreMenuScore.text = score.ToString();
+        }
+
+
         hairRigidBody.isKinematic = true;
         hairController.enabled = false;
         gameSpawnerObject.SetActive(false);
 
+    }
+
+    public void SetUpLeaderBoard()
+    {
+        playerName = newHighScoreMenuName.text;
+        CloseNewHighScoreMenu();
+        AddScoreToHighScoreBoard();
+        GetHighScoreBoard();
+    }
+
+    private void GetHighScoreBoard()
+    {
+        if (highScores.Count == 0)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                string highScoreKey = "HighScore" + (i + 1).ToString();
+                string highScoreNameKey = "HighScorePlayerName" + (i + 1).ToString();
+                int highScore = PlayerPrefs.GetInt(highScoreKey, 0);
+                string highScoreName = PlayerPrefs.GetString(highScoreNameKey, "");
+                highScores.Add(highScore);
+                highScoreNames.Add(highScoreName);
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                GameObject scorePanel = Instantiate(HighScoreObjectExample, HighScoreObjectExample.transform.position, HighScoreObjectExample.transform.rotation);
+                scorePanel.transform.parent = HighScoreContent.transform;
+                scorePanel.transform.position = new Vector3(0, 0, 0);
+                HighScorePlacementController highscoreController = scorePanel.GetComponent<HighScorePlacementController>();
+                highscoreController.SetHighScoreValues(i + 1, highScoreNames[i], highScores[i]);
+            }
+        }
+
+        LeaderBoardMenu.SetActive(true);
+    }
+
+    public void CloseNewHighScoreMenu()
+    {
+        newHighScoreMenu.SetActive(false);
     }
 
     public void ReturnToMainMenu()
@@ -102,20 +173,24 @@ public class LostMyShittyHairManager : MonoBehaviour {
 
     private void AddScoreToHighScoreBoard()
     {
-        List<int> highScores = new List<int>();
-
-
-        for (int i = 0; i < highScores.Count; i++)
+        for (int i = 0; i < 10; i++)
         {
+            int tempScore = score;
+            string tempName = playerName;
+
+            string highScoreNameKey = "HighScorePlayerName" + (i + 1).ToString();
+            string highScoreName = PlayerPrefs.GetString(highScoreNameKey, "");
             string highScoreKey = "HighScore" + (i + 1).ToString();
             int highScore = PlayerPrefs.GetInt(highScoreKey, 0);
 
-            if (score > highScore)
+            if (tempScore > highScore)
             {
                 int temp = highScore;
+                string tempstring = highScoreName;
                 PlayerPrefs.SetInt(highScoreKey, score);
-                score = temp;
-                break;
+                PlayerPrefs.SetString(highScoreNameKey, tempName);
+                tempName = tempstring;
+                tempScore = temp;
             }
         }
     }

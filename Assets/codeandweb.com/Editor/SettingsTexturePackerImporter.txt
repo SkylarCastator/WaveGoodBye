@@ -1,0 +1,11 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Animation/TrumpRun.tpsheet
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+textureFileNames:
+- Assets/Animation/TrumpRun.png
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+normalmapFileNames:
+- 
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png

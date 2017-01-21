@@ -1,0 +1,866 @@
+fileFormatVersion: 2
+guid: 45497e43ca7727e489d98ad469666f87
+timeCreated: 1485020840
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hair_idle_00000
+    21300002: Hair_idle_00001
+    21300004: Hair_idle_00002
+    21300006: Hair_idle_00003
+    21300008: Hair_idle_00004
+    21300010: Hair_idle_00005
+    21300012: Hair_idle_00006
+    21300014: Hair_idle_00007
+    21300016: Hair_idle_00008
+    21300018: Hair_idle_00009
+    21300020: Hair_idle_00010
+    21300022: Hair_idle_00011
+    21300024: Hair_idle_00012
+    21300026: Hair_idle_00013
+    21300028: Hair_idle_00014
+    21300030: Hair_idle_00015
+    21300032: Hair_idle_00016
+    21300034: Hair_idle_00017
+    21300036: Hair_idle_00018
+    21300038: Hair_idle_00019
+    21300040: Hair_idle_00020
+    21300042: Hair_idle_00021
+    21300044: Hair_idle_00022
+    21300046: Hair_idle_00023
+    21300048: Hair_idle_00024
+    21300050: Hair_idle_00025
+    21300052: Hair_idle_00026
+    21300054: Hair_idle_00027
+    21300056: Hair_idle_00028
+    21300058: Hair_idle_00029
+    21300060: Hair_idle_00030
+    21300062: Hair_idle_00031
+    21300064: Hair_idle_00032
+    21300066: Hair_idle_00033
+    21300068: Hair_idle_00034
+    21300070: Hair_idle_00035
+    21300072: Hair_idle_00036
+    21300074: Hair_idle_00037
+    21300076: Hair_idle_00038
+    21300078: Hair_idle_00039
+    21300080: Hair_idle_00040
+    21300082: Hair_idle_00041
+    21300084: Hair_idle_00042
+    21300086: Hair_idle_00043
+    21300088: Hair_idle_00044
+    21300090: Hair_idle_00045
+    21300092: Hair_idle_00046
+    21300094: Hair_idle_00047
+    21300096: Hair_idle_00048
+    21300098: Hair_idle_00049
+    21300100: Hair_idle_00050
+    21300102: Hair_idle_00051
+    21300104: Hair_idle_00052
+    21300106: Hair_idle_00053
+    21300108: Hair_idle_00054
+    21300110: Hair_idle_00055
+    21300112: Hair_idle_00056
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hair_idle_00000
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 84
+        width: 223
+        height: 205
+      alignment: 9
+      pivot: {x: 0.48878923, y: 0.3707317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 41
+        width: 225
+        height: 211
+      alignment: 9
+      pivot: {x: 0.48, y: 0.33175355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00002
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 260
+        width: 229
+        height: 210
+      alignment: 9
+      pivot: {x: 0.48471615, y: 0.32380953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 254
+        width: 229
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5021834, y: 0.30476192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00004
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 43
+        width: 225
+        height: 209
+      alignment: 9
+      pivot: {x: 0.47555557, y: 0.28708133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00005
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 692
+        width: 233
+        height: 216
+      alignment: 9
+      pivot: {x: 0.4806867, y: 0.2777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00006
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 484
+        width: 232
+        height: 232
+      alignment: 9
+      pivot: {x: 0.47413793, y: 0.28448275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00007
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 886
+        width: 235
+        height: 219
+      alignment: 9
+      pivot: {x: 0.47659576, y: 0.24200913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00008
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 489
+        width: 237
+        height: 217
+      alignment: 9
+      pivot: {x: 0.47257385, y: 0.22580644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00009
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 684
+        width: 238
+        height: 227
+      alignment: 9
+      pivot: {x: 0.49579832, y: 0.24229075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00010
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 910
+        width: 243
+        height: 220
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.21818182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00011
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 673
+        width: 258
+        height: 223
+      alignment: 9
+      pivot: {x: 0.50775194, y: 0.21076234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 466
+        width: 252
+        height: 216
+      alignment: 9
+      pivot: {x: 0.50793654, y: 0.21296297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00013
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 708
+        width: 263
+        height: 213
+      alignment: 9
+      pivot: {x: 0.50570345, y: 0.16901408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00014
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 921
+        width: 266
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5112782, y: 0.15311004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00015
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1601
+        width: 288
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5520833, y: 0.1448598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00016
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1377
+        width: 283
+        height: 222
+      alignment: 9
+      pivot: {x: 0.54063606, y: 0.14414415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00017
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1830
+        width: 291
+        height: 217
+      alignment: 9
+      pivot: {x: 0.5532646, y: 0.11059908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00018
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1353
+        width: 279
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5519713, y: 0.12280702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00019
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1583
+        width: 281
+        height: 239
+      alignment: 9
+      pivot: {x: 0.55871886, y: 0.07949791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1805
+        width: 291
+        height: 242
+      alignment: 9
+      pivot: {x: 0.580756, y: 0.0661157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00021
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1578
+        width: 286
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5874126, y: 0.04761905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1122
+        width: 282
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5921986, y: 0.038961038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00023
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1107
+        width: 273
+        height: 244
+      alignment: 9
+      pivot: {x: 0.6007326, y: 0.028688524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00024
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1139
+        width: 282
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5992908, y: 0.025423728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00025
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1122
+        width: 275
+        height: 232
+      alignment: 9
+      pivot: {x: 0.60727274, y: 0.01724138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00026
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 898
+        width: 273
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5970696, y: 0.016736401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1568
+        width: 287
+        height: 235
+      alignment: 9
+      pivot: {x: 0.6097561, y: 0.008510638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00028
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1132
+        width: 275
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5890909, y: -0.017777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00029
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1361
+        width: 281
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5658363, y: -0.004464286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00030
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1139
+        width: 279
+        height: 233
+      alignment: 9
+      pivot: {x: 0.562724, y: 0.017167382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00031
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1356
+        width: 280
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5607143, y: 0.018181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00032
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1580
+        width: 281
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5516014, y: 0.03448276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00033
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1606
+        width: 288
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.058558557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00034
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1824
+        width: 282
+        height: 223
+      alignment: 9
+      pivot: {x: 0.54964536, y: 0.06726457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00035
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1822
+        width: 287
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5470383, y: 0.08444444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00036
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1132
+        width: 276
+        height: 227
+      alignment: 9
+      pivot: {x: 0.557971, y: 0.11013216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00037
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1814
+        width: 286
+        height: 233
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.12017167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00038
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1374
+        width: 286
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5559441, y: 0.15652174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00039
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1817
+        width: 291
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5498282, y: 0.16086957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00040
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1811
+        width: 289
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5432526, y: 0.20338982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00041
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1587
+        width: 286
+        height: 233
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.22317597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00042
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1359
+        width: 278
+        height: 219
+      alignment: 9
+      pivot: {x: 0.53956836, y: 0.2283105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00043
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 895
+        width: 273
+        height: 225
+      alignment: 9
+      pivot: {x: 0.54212457, y: 0.2488889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00044
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 923
+        width: 271
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5498155, y: 0.27102804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00045
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1355
+        width: 283
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5547703, y: 0.27962086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00046
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 913
+        width: 264
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5265151, y: 0.29951692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00047
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 684
+        width: 255
+        height: 209
+      alignment: 9
+      pivot: {x: 0.52156866, y: 0.3110048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00048
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 718
+        width: 243
+        height: 201
+      alignment: 9
+      pivot: {x: 0.5308642, y: 0.3233831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00049
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 472
+        width: 236
+        height: 199
+      alignment: 9
+      pivot: {x: 0.5254237, y: 0.35678393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00050
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 291
+        width: 232
+        height: 196
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.3622449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00051
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 475
+        width: 232
+        height: 207
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.3768116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00052
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 53
+        width: 229
+        height: 205
+      alignment: 9
+      pivot: {x: 0.510917, y: 0.3804878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00053
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 494
+        width: 215
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5023256, y: 0.35204083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00054
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 686
+        width: 216
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.35858586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00055
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 687
+        width: 218
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5229358, y: 0.35025382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hair_idle_00056
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 481
+        width: 214
+        height: 204
+      alignment: 9
+      pivot: {x: 0.5140187, y: 0.3480392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

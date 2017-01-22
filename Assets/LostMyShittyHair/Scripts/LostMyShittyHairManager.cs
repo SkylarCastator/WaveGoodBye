@@ -28,9 +28,12 @@ public class LostMyShittyHairManager : MonoBehaviour {
     float countdownTimer = 4f;
     bool gameStarted = false;
     bool UserReady = false;
+    private AudioSource audioSource;
+    public AudioClip buttonClick;
 
 	// Use this for initialization
 	void Start () {
+        audioSource = gameObject.GetComponent<AudioSource>();
         LoadingScreen.SetActive(false);
         gameOverMenu.SetActive(false);
         newHighScoreMenu.SetActive(false);
@@ -41,13 +44,20 @@ public class LostMyShittyHairManager : MonoBehaviour {
         gameSpawnerObject.SetActive(false);
 
     }
-	
-	// Update is called once per frame
+
+    // Update is called once per frame
+    string currentStartingTimer = "";
 	void Update () {
         if (UserReady)
         {
             if (!gameStarted)
             {
+                if (StartingLabel.text != currentStartingTimer)
+                {
+                    currentStartingTimer = StartingLabel.text;
+                    audioSource.PlayOneShot(buttonClick);
+                }
+
                 countdownTimer -= Time.deltaTime;
 
                 int timerShort = (int)countdownTimer;
@@ -162,6 +172,12 @@ public class LostMyShittyHairManager : MonoBehaviour {
     public void ResetGame()
     {
         LoadingScreen.SetActive(true);
+        StartCoroutine(ResetSceneDelay());
+    }
+
+    private IEnumerator ResetSceneDelay()
+    {
+        yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("TrumpRunning");
     }
 

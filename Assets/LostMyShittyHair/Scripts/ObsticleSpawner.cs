@@ -32,6 +32,6 @@ public class ObsticleSpawner : MonoBehaviour {
         GameObject column = Instantiate(columnObject, gameObject.transform.position, gameObject.transform.rotation) as GameObject;
         column.transform.parent = gameObject.transform;
         column.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
-        shittyHairManager.AddScorePoint();
+        //shittyHairManager.AddScorePoint();
     }
 }

@@ -17,6 +17,7 @@ public class ScrollBackground : MonoBehaviour
 
     void Update()
     {
+       // float percentage = Screen.width *
         if (GridObjectTransform.position.x < maxXPosition)
         {
             GridObjectTransform.position = new Vector3(posXOriginal, GridObjectTransform.position.y, GridObjectTransform.position.z);

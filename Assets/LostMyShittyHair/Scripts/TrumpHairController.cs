@@ -25,6 +25,14 @@ public class TrumpHairController : MonoBehaviour {
             body.AddForce(jumpForce);
         }
 
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        {
+            audioSource.PlayOneShot(jumpclip);
+            Rigidbody2D body = gameObject.GetComponent<Rigidbody2D>();
+            body.velocity = Vector2.zero;
+            body.AddForce(jumpForce);
+        }
+
         // Die by being off screen
        // Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
         //if (screenPosition.y > Screen.height || screenPosition.y < 0)

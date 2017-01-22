@@ -165,6 +165,7 @@ public class LostMyShittyHairManager : MonoBehaviour {
 
     public void ReturnToMainMenu()
     {
+        LeaderBoardMenu.SetActive(false);
         LoadingScreen.SetActive(true);
         StartCoroutine(WaitForLoadingScreen());
     }
@@ -189,14 +190,14 @@ public class LostMyShittyHairManager : MonoBehaviour {
 
     private void AddScoreToHighScoreBoard()
     {
+        int tempScore = score;
+        string tempName = playerName;
+
         for (int i = 0; i < 10; i++)
         {
-            int tempScore = score;
-            string tempName = playerName;
-
             string highScoreNameKey = "HighScorePlayerName" + (i + 1).ToString();
-            string highScoreName = PlayerPrefs.GetString(highScoreNameKey, "");
             string highScoreKey = "HighScore" + (i + 1).ToString();
+            string highScoreName = PlayerPrefs.GetString(highScoreNameKey, "");
             int highScore = PlayerPrefs.GetInt(highScoreKey, 0);
 
             if (tempScore > highScore)
